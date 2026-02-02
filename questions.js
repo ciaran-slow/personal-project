@@ -72,7 +72,8 @@ export const questions = [
     ],
   },
   {
-    question: 'Who is the Supreme Leader of the First Order?',
+    question:
+      'Who was the Supreme Leader of the First Order before Episode VIII?',
     answers: [
       { text: 'Kylo Ren', correct: false },
       { text: 'Snoke', correct: true },
@@ -153,12 +154,12 @@ export const questions = [
     ],
   },
   {
-    question: 'Which Jedi Master trained Anakin Skywalker?',
+    question: 'Which Jedi Master originally trained Anakin Skywalker?',
     answers: [
-      { text: 'Obi-Wan Kenobi', correct: true },
+      { text: 'Qui-Gon Jinn', correct: true },
+      { text: 'Obi-Wan Kenobi', correct: false },
       { text: 'Yoda', correct: false },
       { text: 'Mace Windu', correct: false },
-      { text: 'Qui-Gon Jinn', correct: false },
     ],
   },
   {
@@ -180,12 +181,12 @@ export const questions = [
     ],
   },
   {
-    question: 'Who leads the Rebel Alliance?',
+    question: 'Who was the leader of the Rebel Alliance?',
     answers: [
-      { text: 'Leia Organa', correct: true },
+      { text: 'Mon Mothma', correct: true },
+      { text: 'Leia Organa', correct: false },
       { text: 'Luke Skywalker', correct: false },
       { text: 'Han Solo', correct: false },
-      { text: 'Mon Mothma', correct: false },
     ],
   },
   {
@@ -216,7 +217,8 @@ export const questions = [
     ],
   },
   {
-    question: 'Which droid speaks in beeps and whistles?',
+    question:
+      'Which astromech droid is famous for speaking in beeps and whistles in the original trilogy?',
     answers: [
       { text: 'R2-D2', correct: true },
       { text: 'C-3PO', correct: false },
@@ -261,7 +263,7 @@ export const questions = [
     ],
   },
   {
-    question: 'Which planet is the forest moon of Endor?',
+    question: 'Which moon is known as the forest moon of Endor?',
     answers: [
       { text: 'Endor', correct: true },
       { text: 'Dagobah', correct: false },
