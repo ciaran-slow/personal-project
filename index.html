@@ -3,7 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Star Wars Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- STAR BACKGROUND -->
+    <div class="stars">
+      <span style="--x: 0.05; --speed: 2s; --delay: 0s"></span>
+      <span style="--x: 0.15; --speed: 3s; --delay: 0.5s"></span>
+      <span style="--x: 0.25; --speed: 4s; --delay: 1s"></span>
+      <span style="--x: 0.35; --speed: 2.5s; --delay: 0.2s"></span>
+      <span style="--x: 0.45; --speed: 3.5s; --delay: 0.7s"></span>
+      <span style="--x: 0.55; --speed: 4s; --delay: 0.3s"></span>
+      <span style="--x: 0.65; --speed: 2.2s; --delay: 1.2s"></span>
+      <span style="--x: 0.75; --speed: 3.1s; --delay: 0.4s"></span>
+      <span style="--x: 0.85; --speed: 2.8s; --delay: 0.9s"></span>
+      <span style="--x: 0.95; --speed: 3.2s; --delay: 0.1s"></span>
+    </div>
+
+    <!-- QUIZ -->
+    <div class="quiz-container">
+      <h1>Star Wars <span>Quiz</span></h1>
+
+      <p>Are you a true Jedi?</p>
+
+      <div id="score-display">Score: 0</div>
+
+      <!-- QUESTION -->
+      <div class="card" id="question-container">
+        <p id="question"></p>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+
+      <button id="next-btn" class="btn next-btn hide">Next Question</button>
+
+      <!-- SCORE -->
+      <div id="score-container" class="card hide">
+        <p>Your score: <span id="score"></span>/7</p>
+        <button id="restart-btn" class="btn">Restart Quiz</button>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
